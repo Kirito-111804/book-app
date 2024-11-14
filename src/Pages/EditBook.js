@@ -103,6 +103,7 @@ const EditBook = ({ books, onUpdate }) => {
                                     onChange={(e) => setTitle(e.target.value)}
                                     required
                                     className="form-control bg-dark text-light border-secondary"
+                                    
                                 />
                             </div>
                             <div className="col-md-6">
