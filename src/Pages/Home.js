@@ -98,7 +98,7 @@ const BookList = ({ books, onView, onEdit, onDelete }) => (
               <p className="card-text text-muted">{book.author}</p>
             </div>
             <div>
-              <button onClick={() => onView(book.id)} className="btn btn-warning mx-2">
+              <button onClick={() => onView(book.id)} className="btn btn-info mx-2">
                 View
               </button>
               <button onClick={() => onEdit(book.id)} className="btn btn-warning mx-2">
